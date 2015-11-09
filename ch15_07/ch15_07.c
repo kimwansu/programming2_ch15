@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-#define GET_BIT(n, pos) ( 1 & (n >> pos) )
+#define GET_BIT(n, pos) ( 1 & ((n) >> (pos)) )
 
 void display_bit(int value);
 

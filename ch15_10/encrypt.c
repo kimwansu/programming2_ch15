@@ -2,7 +2,7 @@
 #include "encrypt.h"
 #endif
 
-//#define ALTERNATIVE
+#define ALTERNATIVE
 
 void encode(char* str, char* key, char* encoded)
 {

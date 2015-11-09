@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define MIN(a, b) ( a < b ? a : b )
-#define GET_MIN(x, y, z) ( (x < y) ? MIN(x, z) : MIN(y, z) )
+#define MIN(a, b) ( (a) < (b) ? (a) : (b) )
+#define GET_MIN(x, y, z) ( ((x) < (y)) ? MIN((x), (z)) : MIN((y), (z)) )
 
 int main()
 {

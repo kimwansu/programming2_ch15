@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <string.h>
-
-#define TOGGLE_BIT(n, pos) ( n ^= (1 << pos) )
+#define TOGGLE_BIT(n, pos) ( (n) ^= (1 << (pos)) )
 
 void change_case(char* str, int length);
 
@@ -28,6 +27,7 @@ void change_case(char* str, int length)
     int i;
     for (i = 0; i < length; i++)
     {
+        // *(str + i) == str[i]
         if (isalpha(*(str + i)))
         {
             TOGGLE_BIT(*(str + i), 5);

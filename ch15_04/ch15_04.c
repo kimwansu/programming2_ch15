@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #define PI 3.141592
-#define VOLUME(r, h) ( PI * r * r * h )
+#define VOLUME(r, h) ( PI * (r) * (r) * (h) )
 
 int main()
 {
