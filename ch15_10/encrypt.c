@@ -1,4 +1,4 @@
-#ifndef ENCRYPT_H
+#ifndef CH15_10_ENCRYPT_H_
 #include "encrypt.h"
 #endif
 
