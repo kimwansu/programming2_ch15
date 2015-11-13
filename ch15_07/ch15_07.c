@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+О╩©#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main()
 {
     int n;
 
-    printf("а╓╪Ж╟╙ю╩ ют╥бго╫ц©ю: ");
+    printf("Л═∙Л┬≤Й╟▓Л²└ Л·┘К═╔М∙≤Л▀°Л≤╓: ");
     scanf("%d", &n);
 
     display_bit(n);
